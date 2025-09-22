@@ -1,6 +1,7 @@
 # Hi 👋, I'm Fran Hancco Champi
 Nice to meet you! :)
 
+ABOUT ME
 ```javascript
 const FranHancco = {
     pronouns: 'he',
