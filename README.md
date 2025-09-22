@@ -8,13 +8,7 @@ class FranHancco:
         self.nickName = "Fran"
         self.code = ["Python", "Java", "JavaScript"]
         self.languages = ["Spanish (native)", "English", "Portuguese"]
-        self.askMeAbout = [
-            "Computer Vision",
-            "Artificial Intelligence",
-            "Cloud Services",
-            "Deep Learning",
-            "Research",
-            "Open Source"
+        self.askMeAbout = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research", "Open Source"
         ]
         self.message = (
             "Computer and Systems Engineering bachelor at UNSAAC. "
