@@ -6,14 +6,9 @@ Nice to meet you! :)
 class FranHancco:
     def __init__(self) -> None:
         self.nickName: str = "Fran"
-        self.code: list[str] = ["Python", "Java", "JavaScript"]
+        self.code: list[str] = ["Python", "C++", "JavaScript" ]
         self.languages: list[str] = ["Spanish", "English", "Portuguese"]
-        self.askMeAbout: list[str] = [
-            "Computer Vision",
-            "Artificial Intelligence",
-            "Cloud Services",
-            "Deep Learning",
-            "Research"
+        self.askMeAbout: list[str] = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research"
         ]
         
         self.message: str = "Bachelor in Computer Science with specialization in AI, ML, Computer Vision, and Cloud-based AI solutions."
