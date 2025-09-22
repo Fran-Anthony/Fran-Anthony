@@ -8,14 +8,12 @@ class FranHancco:
         self.nickName = "Fran"
         self.code = ["Python", "Java", "JavaScript"]
         self.languages = ["Spanish (native)", "English", "Portuguese"]
-        self.askMeAbout = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research", "Open Source"
+        self.askMeAbout = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research"
         ]
-        self.message = (
-            "Computer and Systems Engineering bachelor at UNSAAC. "
-            "Passionate about Computer Vision research and "
-            "Cloud-based AI solutions. Focused on applied projects "
-            "that connect academia with real-world impact."
-        )
+       self.message = (
+    "Bachelor in Computer Science, " "specialized in Computer Vision and Cloud-based AI solutions."
+)
+
 
         self.research = {
             "cloudAI": {
