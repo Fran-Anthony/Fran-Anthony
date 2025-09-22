@@ -7,7 +7,7 @@ class FranHancco:
     def __init__(self) -> None:
         self.nickName: str = "Fran"
         self.code: list[str] = ["Python", "Java", "JavaScript"]
-        self.languages: list[str] = ["Spanish (native)", "English", "Portuguese"]
+        self.languages: list[str] = ["Spanish", "English", "Portuguese"]
         self.askMeAbout: list[str] = [
             "Computer Vision",
             "Artificial Intelligence",
@@ -17,9 +17,7 @@ class FranHancco:
         ]
         
         self.message: str = (
-            "Bachelor in Computer Science, "
-            "specialized in Computer Vision and "
-            "Cloud-based AI solutions."
+            "Bachelor in Computer Science, " "specialized in Computer Vision and " "Cloud-based AI solutions."
         )
 
     def research(self) -> dict:
@@ -46,8 +44,6 @@ class FranHancco:
             "methodologies": ["Scrum", "CRISP-DM"]
         }
 
-
-if __name__ == "__main__":
-    fran = FranHancco()
-    print(fran.message)
 ```
+# Contact
+# 📫 How to reach me: fran.an15@proton.me
