@@ -51,8 +51,6 @@ class FranAHancco:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
 
   <!-- Cloud & AWS específicos -->
-  <img src="https://api.allorigins.win/raw?url=https://www.svgrepo.com/download/35444/aws-lambda.svg" alt="AWS Lambda" width="40" height="40"/>
-
   <!-- Otros Clouds -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="40" height="40"/>
