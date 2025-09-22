@@ -2,53 +2,52 @@
 Nice to meet you! :)
 
 # ABOUT ME
-```javascript
-class FranHancco {
-  constructor() {
-    this.nickName = "Fran";
-    this.code = ["Python", "Java", "JavaScript"];
-    this.languages = ["Spanish (native)", "English", "Portuguese"];
-    this.askMeAbout = [
-      "Computer Vision",
-      "Artificial Intelligence",
-      "Cloud Services",
-      "Deep Learning",
-      "Research"
-    ];
-    
-```csharp
-public string Message = 
-    "Postgraduate in Software Engineering, " +
-    "specialized in Quality and Software Testing, " +
-    "and working as a QA Automation Engineer.";
-```  }
-
-  research() {
-    return {
-      cloudAI: {
-        specialization: "Retrieval-Augmented Generation (RAG)",
-        providers: ["AWS", "Azure", "Google Cloud"],
-        tools: [
-          "Amazon S3", "Amazon Bedrock", "Lambda Functions",
-          "Azure Search", "Azure OpenAI",
-          "BigQuery", "Vertex AI", "Cloud Functions"
+```python
+class FranHancco:
+    def __init__(self) -> None:
+        self.nickName: str = "Fran"
+        self.code: list[str] = ["Python", "Java", "JavaScript"]
+        self.languages: list[str] = ["Spanish (native)", "English", "Portuguese"]
+        self.askMeAbout: list[str] = [
+            "Computer Vision",
+            "Artificial Intelligence",
+            "Cloud Services",
+            "Deep Learning",
+            "Research"
         ]
-      }
-    };
-  }
+        
+        self.message: str = (
+            "Bachelor in Computer Science, "
+            "specialized in Computer Vision and "
+            "Cloud-based AI solutions."
+        )
 
-  technologies() {
-    return {
-      os: ["Windows", "Linux"],
-      deepLearning: ["TensorFlow", "PyTorch", "YOLO", "OpenCV"],
-      backEnd: ["Spring Boot", "Postman"],
-      frontEnd: ["Angular"],
-      databases: ["SQL Server"],
-      additional: ["Git", "Docker"],
-      methodologies: ["Scrum", "CRISP-DM"]
-    };
-  }
-}
+    def research(self) -> dict:
+        return {
+            "cloudAI": {
+                "specialization": "Retrieval-Augmented Generation (RAG)",
+                "providers": ["AWS", "Azure", "Google Cloud"],
+                "tools": [
+                    "Amazon S3", "Amazon Bedrock", "Lambda Functions",
+                    "Azure Search", "Azure OpenAI",
+                    "BigQuery", "Vertex AI", "Cloud Functions"
+                ]
+            }
+        }
 
-const fran = new FranHancco();
-console.log(fran.message);
+    def technologies(self) -> dict:
+        return {
+            "os": ["Windows", "Linux"],
+            "deepLearning": ["TensorFlow", "PyTorch", "YOLO", "OpenCV"],
+            "backEnd": ["Spring Boot", "Postman"],
+            "frontEnd": ["Angular"],
+            "databases": ["SQL Server"],
+            "additional": ["Git", "Docker"],
+            "methodologies": ["Scrum", "CRISP-DM"]
+        }
+
+
+if __name__ == "__main__":
+    fran = FranHancco()
+    print(fran.message)
+```
