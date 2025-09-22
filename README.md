@@ -4,6 +4,10 @@
 
 
 
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=4000&color=1abc9c&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile!" alt="Typing SVG">
+</p>
+
 # Hi there, I'm Fran Anthony Hancco Champi
 Nice to meet you! :)
 
