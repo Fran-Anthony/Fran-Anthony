@@ -1,45 +1,46 @@
 # Hi 👋, I'm Fran Hancco Champi
 Nice to meet you! :)
 
-```python
-class FranHanccoChampi:
-    def __init__(self):
-        self.pronouns = "he"
-        self.nickName = "Fran"
-        self.study = "Computer and Systems Engineering student at UNSAAC"
-        
-        self.focusAreas = [
-            "Computer Vision",
-            "Cloud & AI",
-            "Deep Learning"
-        ]
-        
-        self.languages = ["Python", "Java", "SQL"]
-        self.frameworks = ["TensorFlow", "YOLOv8", "Spring Boot", "Angular"]
-        
-        self.cloud_experience = {
-            "AWS": ["S3", "Bedrock", "Lambda Functions"],
-            "Azure": ["Azure Search", "Azure OpenAI"],
-            "Google Cloud": ["BigQuery", "Vertex AI", "Cloud Functions"]
-        }
-        
-        self.projects = {
-            "Computer Vision": "Quality control of alpaca fiber using AI (custom dataset + YOLOv8)",
-            "Cloud & AI": "RAG pipelines with AWS, Azure, GCP",
-            "Software Dev": [
-                "Inventory Control System (UNSAAC)",
-                "Loan Eligibility System (farmers and ranchers)"
+```javascript
+const FranHancco = {
+    pronouns: 'he',
+    nickName: 'Fran',
+    code: ['Python', 'Java', 'JavaScript'],
+    languages: ['Spanish', 'English'],
+    askMeAbout: [
+        'Computer Vision',
+        'Artificial Intelligence',
+        'Cloud Services',
+        'Deep Learning',
+        'Research',
+        'Open Source'
+    ],
+    message: `
+    Computer and Systems Engineering student at UNSAAC.
+    Passionate about Computer Vision research and
+    Cloud-based AI solutions. Focused on applied projects
+    that connect academia with real-world impact.`,
+    research: {
+        computerVision: {
+            project: 'Quality control of alpaca fiber',
+            dataset: 'Custom dataset creation, labeling & annotation',
+            model: 'YOLOv8 customization for impurity detection'
+        },
+        cloudAI: {
+            specialization: 'Retrieval-Augmented Generation (RAG)',
+            providers: ['AWS', 'Azure', 'Google Cloud'],
+            tools: [
+                'Amazon S3', 'Amazon Bedrock', 'Lambda Functions',
+                'Azure Search', 'Azure OpenAI',
+                'BigQuery', 'Vertex AI', 'Cloud Functions'
             ]
         }
-        
-        self.databases = ["SQL Server"]
-        self.other_tools = ["Git", "Docker"]
-        
-        self.message = "Passionate about applying AI in real-world scenarios, \
-combining computer vision research with scalable cloud solutions."
-        
-    def say_hi(self):
-        print("Thanks for visiting my profile! Let's connect 🚀")
-
-me = FranHanccoChampi()
-me.say_hi()
+    },
+    technologies: {
+        deepLearning: ['TensorFlow', 'YOLO', 'OpenCV'],
+        backEnd: ['Spring Boot'],
+        frontEnd: ['Angular'],
+        databases: ['SQL Server'],
+        others: ['Git', 'Docker']
+    }
+};
