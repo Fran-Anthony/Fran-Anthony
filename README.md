@@ -6,7 +6,7 @@
 Nice to meet you! :)
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=4000&color=1abc9c&center=true&vCenter=true&width=800&lines=Welcome+to+my+GitHub+Profile!" alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=7000&color=1abc9c&center=true&vCenter=true&width=800&lines=Welcome+to+my+GitHub+Profile!" alt="Typing SVG">
 </p>
 
 
@@ -15,37 +15,26 @@ Nice to meet you! :)
 class FranAHancco:
     def __init__(self) -> None:
         self.nickName: str = "Fran"
-        self.code: list[str] = ["Python", "C++", "JavaScript" ]
+        self.code: list[str] = ["Python", "C++", "JavaScript"]
         self.languages: list[str] = ["Spanish", "English", "Portuguese"]
-        self.askMeAbout: list[str] = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research"
+        self.focus: list[str] = [
+            "Computer Vision", "Artificial Intelligence",
+            "Cloud Services", "Deep Learning"
         ]
-        
-        self.message: str = "Bachelor in Computer Science with specialization in Computer Vision, and Cloud-based AI solutions."
-
+        self.message: str = "Bachelor in Computer Science specializing in AI, Computer Vision, and Cloud-based solutions."
 
     def research(self) -> dict:
         return {
-            "cloudAI": {
-                "specialization": "Retrieval-Augmented Generation (RAG)",
-                "providers": ["AWS", "Azure", "Google Cloud"],
-                "tools": [
-                    "Amazon S3", "Amazon Bedrock", "Lambda Functions",
-                    "Azure Search", "Azure OpenAI",
-                    "BigQuery", "Vertex AI", "Cloud Functions"
-                ]
-            }
+            "Cloud AI": ["RAG", "AWS", "Azure", "Google Cloud"]
         }
 
     def technologies(self) -> dict:
         return {
-            "os": ["Windows", "Linux"],
-            "deepLearning": ["TensorFlow", "PyTorch", "YOLO", "OpenCV"],
-            "backEnd": ["Spring Boot", "Postman"],
-            "frontEnd": ["Angular"],
-            "databases": ["SQL Server"],
-            "additional": ["Git", "Docker"],
-            "methodologies": ["Scrum", "CRISP-DM"]
+            "AI/ML": ["TensorFlow", "PyTorch", "YOLO", "OpenCV"],
+            "Cloud": ["S3", "Bedrock", "Lambda", "Vertex AI"],
+            "Tools": ["Git", "Docker", "Postman", "SQL Server"]
         }
+
 
 ```
 
