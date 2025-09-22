@@ -2,46 +2,55 @@
 Nice to meet you! :)
 
 # ABOUT ME
-```javascript
-const FranHancco = {
-    pronouns: 'he',
-    nickName: 'Fran',
-    code: ['Python', 'Java', 'JavaScript'],
-    languages: ['Spanish', 'English'],
-    askMeAbout: [
-        'Computer Vision',
-        'Artificial Intelligence',
-        'Cloud Services',
-        'Deep Learning',
-        'Research',
-        'Open Source'
-    ],
-    message: `
-    Computer and Systems Engineering student at UNSAAC.
-    Passionate about Computer Vision research and
-    Cloud-based AI solutions. Focused on applied projects
-    that connect academia with real-world impact.`,
-    research: {
-        computerVision: {
-            project: 'Quality control of alpaca fiber',
-            dataset: 'Custom dataset creation, labeling & annotation',
-            model: 'YOLOv8 customization for impurity detection'
-        },
-        cloudAI: {
-            specialization: 'Retrieval-Augmented Generation (RAG)',
-            providers: ['AWS', 'Azure', 'Google Cloud'],
-            tools: [
-                'Amazon S3', 'Amazon Bedrock', 'Lambda Functions',
-                'Azure Search', 'Azure OpenAI',
-                'BigQuery', 'Vertex AI', 'Cloud Functions'
-            ]
+```python
+class FranHancco:
+    def __init__(self):
+        self.nickName = "Fran"
+        self.code = ["Python", "Java", "JavaScript"]
+        self.languages = ["Spanish (native)", "English", "Portuguese"]
+        self.askMeAbout = [
+            "Computer Vision",
+            "Artificial Intelligence",
+            "Cloud Services",
+            "Deep Learning",
+            "Research",
+            "Open Source"
+        ]
+        self.message = (
+            "Computer and Systems Engineering bachelor at UNSAAC. "
+            "Passionate about Computer Vision research and "
+            "Cloud-based AI solutions. Focused on applied projects "
+            "that connect academia with real-world impact."
+        )
+
+        self.research = {
+            "cloudAI": {
+                "specialization": "Retrieval-Augmented Generation (RAG)",
+                "providers": ["AWS", "Azure", "Google Cloud"],
+                "tools": [
+                    "Amazon S3", "Amazon Bedrock", "Lambda Functions",
+                    "Azure Search", "Azure OpenAI",
+                    "BigQuery", "Vertex AI", "Cloud Functions"
+                ]
+            }
         }
-    },
-    technologies: {
-        deepLearning: ['TensorFlow', 'YOLO', 'OpenCV'],
-        backEnd: ['Spring Boot'],
-        frontEnd: ['Angular'],
-        databases: ['SQL Server'],
-        others: ['Git', 'Docker']
-    }
-};
+
+        self.technologies = {
+            "operatingSystems": ["Windows", "Linux"],
+            "deepLearning": ["TensorFlow", "PyTorch", "YOLO", "OpenCV", "CNNs"],
+            "backEnd": ["Spring Boot", "Postman"],
+            "frontEnd": ["Angular"],
+            "databases": ["SQL Server"],
+            "additional": ["Git", "Docker"],
+            "methodologies": ["Scrum"]
+        }
+
+    def contact(self):
+        return {
+            "email": "fran.an15@proton.me",
+            "linkedin": "https://linkedin.com/in/your-profile"
+        }
+
+
+me = FranHancco()
+print(me.message)
