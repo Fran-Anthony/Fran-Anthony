@@ -1,9 +1,9 @@
-# Hi there, I'm Fran Hancco Champi
+# Hi there, I'm Fran Anthony Hancco Champi
 Nice to meet you! :)
 
 # ABOUT ME
 ```python
-class FranHancco:
+class FranAHancco:
     def __init__(self) -> None:
         self.nickName: str = "Fran"
         self.code: list[str] = ["Python", "C++", "JavaScript" ]
@@ -51,7 +51,7 @@ class FranHancco:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
 
   <!-- Cloud & AWS específicos -->
-  <img src="https://cdn.simpleicons.org/awslambda/FF9900" alt="AWS Lambda" width="40" height="40"/>
+  <img src="https://api.allorigins.win/raw?url=https://www.svgrepo.com/download/35444/aws-lambda.svg" alt="AWS Lambda" width="40" height="40"/>
 
   <!-- Otros Clouds -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="40" height="40"/>
