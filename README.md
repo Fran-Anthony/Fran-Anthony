@@ -40,62 +40,6 @@ class FranAHancco:
 
 ```
 
-## 🎮 Play Hunt the Wumpus
-Want to play a classic game in Python? Copy this code into your terminal and run it!
-
-```python
-import random
-
-class HuntTheWumpus:
-    def __init__(self):
-        self.rooms = {i: [((i-1) % 20)+1, ((i+1) % 20)+1, ((i+5) % 20)+1] for i in range(1, 21)}
-        self.wumpus = random.randint(1, 20)
-        self.player = random.randint(1, 20)
-
-    def play(self):
-        print("Welcome to Hunt the Wumpus! Try not to get eaten...")
-        while True:
-            print(f"\nYou are in room {self.player}. Tunnels lead to {self.rooms[self.player]}")
-            if self.player == self.wumpus:
-                print("Oh no! The Wumpus got you!")
-                break
-
-            move = input("Move or Shoot? (m/s) ").strip().lower()
-            if move == "m":
-                choice = int(input("Which room? "))
-                if choice in self.rooms[self.player]:
-                    self.player = choice
-                else:
-                    print("You can't go there!")
-            elif move == "s":
-                choice = int(input("Shoot into which room? "))
-                if choice == self.wumpus:
-                    print("🎉 You killed the Wumpus! Victory!")
-                    break
-                else:
-                    print("Missed! The Wumpus is still alive...")
-            else:
-                print("Invalid command. Use m/s.")
-                
-if __name__ == "__main__":
-    HuntTheWumpus().play()
-
-
-
-
-```
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
