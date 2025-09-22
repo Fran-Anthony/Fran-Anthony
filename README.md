@@ -8,12 +8,19 @@ class FranHancco:
         self.nickName = "Fran"
         self.code = ["Python", "Java", "JavaScript"]
         self.languages = ["Spanish (native)", "English", "Portuguese"]
-        self.askMeAbout = ["Computer Vision", "Artificial Intelligence", "Cloud Services", "Deep Learning", "Research"
+        self.askMeAbout = [
+            "Computer Vision",
+            "Artificial Intelligence",
+            "Cloud Services",
+            "Deep Learning",
+            "Research"
         ]
-       self.message = (
-    "Bachelor in Computer Science, " "specialized in Computer Vision and Cloud-based AI solutions."
-)
-
+        
+        self.message = (
+            "Bachelor in Computer Science, "
+            "specialized in Computer Vision and "
+            "Cloud-based AI solutions."
+        )
 
         self.research = {
             "cloudAI": {
@@ -28,14 +35,11 @@ class FranHancco:
         }
 
         self.technologies = {
-            "operatingSystems": ["Windows", "Linux"],
-            "deepLearning": ["TensorFlow", "PyTorch", "YOLO", "OpenCV", "CNNs"],
+            "os": ["Windows", "Linux"],
+            "deepLearning": ["TensorFlow", "PyTorch", "YOLO", "OpenCV"],
             "backEnd": ["Spring Boot", "Postman"],
             "frontEnd": ["Angular"],
             "databases": ["SQL Server"],
             "additional": ["Git", "Docker"],
-            "methodologies": ["Scrum"]
+            "methodologies": ["Scrum", "CRISP-DM"]
         }
-```
-# Contact
-📫 How to reach me fran.an15@proton.me 
