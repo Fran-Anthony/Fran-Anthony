@@ -16,8 +16,12 @@ class FranHancco {
       "Research"
     ];
     
-    this.message = "Bachelor in Computer Science, specialized in Computer Vision and Cloud-based AI solutions.";
-  }
+```csharp
+public string Message = 
+    "Postgraduate in Software Engineering, " +
+    "specialized in Quality and Software Testing, " +
+    "and working as a QA Automation Engineer.";
+```  }
 
   research() {
     return {
