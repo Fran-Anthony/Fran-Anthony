@@ -1,4 +1,4 @@
-# Hi 👋, I'm Fran Hancco Champi
+# Hi there 👋, I'm Fran Hancco Champi
 Nice to meet you! :)
 
 # ABOUT ME
@@ -44,13 +44,6 @@ class FranHancco:
             "additional": ["Git", "Docker"],
             "methodologies": ["Scrum"]
         }
-
-    def contact(self):
-        return {
-            "email": "fran.an15@proton.me",
-            "linkedin": "https://linkedin.com/in/your-profile"
-        }
-
-
-me = FranHancco()
-print(me.message)
+```
+# Contact
+📫 How to reach me fran.an15@proton.me 
