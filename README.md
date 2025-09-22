@@ -16,9 +16,8 @@ class FranHancco:
             "Research"
         ]
         
-        self.message: str = (
-            "Bachelor in Computer Science, " "specialized in Computer Vision and " "Cloud-based AI solutions."
-        )
+        self.message: str = "Bachelor in Computer Science with specialization in Artificial Intelligence, Deep Learning, Machine Learning, Computer Vision, and Cloud-based AI solutions."
+
 
     def research(self) -> dict:
         return {
