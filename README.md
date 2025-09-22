@@ -6,11 +6,7 @@
 Nice to meet you! :)
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=4000&color=1abc9c&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile!" alt="Typing SVG">
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?size=26&duration=4000&color=00C4CC&center=true&vCenter=true&width=900&lines=I+am+a+passionate+researcher+in+Computer+Vision,+Artificial+Intelligence,+Cloud+Services,+and+Deep+Learning." alt="Typing SVG">
+  <img src="https://readme-typing-svg.herokuapp.com?size=28&duration=4000&color=1abc9c&center=true&vCenter=true&width=800&lines=Welcome+to+my+GitHub+Profile!;I+am+a+passionate+researcher+in+Computer+Vision,+Artificial+Intelligence,+Cloud+Services,+and+Deep+Learning." alt="Typing SVG">
 </p>
 
 # ABOUT ME
