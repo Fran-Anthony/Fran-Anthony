@@ -51,18 +51,18 @@ class FranHancco:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
 
   <!-- Cloud & AWS específicos -->
+  <img src="https://d1.awsstatic.com/webteam/architecture-icons/q1-2022/Compute/lambda_f_logo_light-bg_48.svg" alt="AWS Lambda" width="40" height="40"/>
+  <img src="https://d1.awsstatic.com/webteam/architecture-icons/q1-2022/Storage/Amazon_S3/S3_48.svg" alt="Amazon S3" width="40" height="40"/>
+  <img src="https://lobe-icons.s3.us-east-2.amazonaws.com/bedrock/Bedrock_full-color_RGB.svg" alt="Amazon Bedrock" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/awslambda/FF9900" alt="AWS Lambda" width="40" height="40"/>
-  <img src="https://cdn.simpleicons.org/amazons3/569A31" alt="Amazon S3" width="40" height="40"/>
 
-  <!-- Azure y Google Cloud -->
+  <!-- Otros Clouds -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg" alt="Azure" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" width="40" height="40"/>
 
-  <!-- Deep Learning / YOLO / AI -->
+  <!-- Deep Learning / IA -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" alt="TensorFlow" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" alt="PyTorch" width="40" height="40"/>
-  <!-- Ultralytics logo desde SimpleIcons -->
   <img src="https://cdn.simpleicons.org/ultralytics/042AFF" alt="Ultralytics" width="40" height="40"/>
 
   <!-- Herramientas / APIs -->
@@ -75,6 +75,15 @@ class FranHancco:
   <!-- Extras -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40" height="40"/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"/>
+
+  <!-- Sistemas Operativos -->
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows" width="40" height="40"/>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux" width="40" height="40"/>
+
+  <!-- Roboflow -->
+  <img src="https://cdn.simpleicons.org/roboflow/00C4CC" alt="Roboflow" width="40" height="40"/>
+</p>
+
 
   <!-- Sistemas Operativos -->
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" alt="Windows" width="40" height="40"/>
